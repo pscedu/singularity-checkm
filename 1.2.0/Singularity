@@ -20,4 +20,5 @@ From: python:latest
     make install
     pip3 install numpy scipy matplotlib pysam dendropy cython checkm-genome==1.2.0
 
-
+%runscript
+    checkm "$@"
